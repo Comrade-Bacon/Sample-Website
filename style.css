@@ -1,0 +1,71 @@
+
+/*
+Margin = space outside
+padding = space inside
+*/
+
+
+body{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* margin and paddign are spesified heer beacuase there is a default and it cam be firent for diffrent browsers. */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+
+    /* margin/pading orientations:
+    top and bottom, left and right 
+    or
+    top, right, bottom, left
+    */
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+div {
+    background-color: red;
+    margin: auto;
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* remove bullet points */
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    background-color: grey;
+    border-radius: 3px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
